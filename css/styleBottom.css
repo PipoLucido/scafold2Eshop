@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+#bottomPage{
+  position: relative;
+    width: 100%;
+   bottom: 0;
+    height: auto;
+    padding: 15px;
+    margin: 0 auto;
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    color: rgba(48, 48, 48, 0.795);
+	grid-gap: 15px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+   /* grid-template-rows: minmax(100px, auto) ;*/
+}
+
+.logoEmpresa{
+  text-align: left;
+  
+}
+
+.logoEmpresa h3{
+  
+  color: rgba(48, 48, 48, 0.795);
+}
+
+.infoEmpresa{
+  text-align: left;
+ margin-left: 80px;
+  font-weight: 15px;
+  
+}
+
+.infoEmpresa h4{
+  font-size: 20px;
+  color: rgba(48, 48, 48, 0.795);
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.infoEmpresa p{
+  cursor: pointer;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.byronsBottom p{
+  font-family: 'Open Sans Condensed', sans-serif;
+  position: relative;
+  cursor: default;
+  font-size: 15px;
+  bottom:-145px;
+  padding-left: 65px;
+}
+
+.byronslogo{
+  position: relative;
+  width: 100px;
+  bottom:-150px;
+  right: -80px;
+}
+
+.mercadopago{
+ padding-left: 15px;
+  width: 150px;
+
+}
+
+.visa{
+  padding-top: -10px;
+  width: 50px;
+  
+}
+
+.mastercard{
+ padding-top: 5px;
+  width: 100px;
+  
+}
+
+.pagofacil{
+  width: 80px;
+  
+}
